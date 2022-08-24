@@ -51,6 +51,27 @@ const Navbar = () => {
           
         </ul>
       </div>
+      <div className='linkSet'>
+        <h3>Single Items</h3>
+        <ul>
+          <li>
+            <Link to="/UseRefBasics">UseRefBasics</Link>
+          </li>
+          <li>
+            <Link to="/UseReducer">UseReducer</Link>
+          </li>
+          <li>
+            <Link to="/ContextAPI">ContextAPI</Link>
+          </li>
+
+
+        </ul>
+      </div>
+
+
+
+
+
       
     </div>
   );

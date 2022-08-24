@@ -14,6 +14,15 @@ import MultipleReturns from './conditionalRendering/multiple-returns';
 import ShortCircuit from './conditionalRendering/short-circuit';
 import ShowHide from './conditionalRendering/show-hide';
 
+import ControlledInputs from './forms/controlled-inputs';
+import MultipleInputs from './forms/multiple-inputs';
+
+import UseRefBasics from './useRef/basics';
+
+import UseReducer from './useReducer/index';
+
+import ContextAPI from './useContext/context-api';
+
 import Navbar from './Navbar';
 
 function App() {
@@ -54,6 +63,23 @@ function App() {
           <Route path="/ShowHide">
             <ShowHide />
           </Route>
+
+          <Route path="/ControlledInputs">
+            <ControlledInputs />
+          </Route>
+          <Route path="/MultipleInputs">
+            <MultipleInputs />
+          </Route>
+          
+          <Route path="/UseRefBasics">
+            <UseRefBasics />
+          </Route>
+          <Route path="/UseReducer">
+            <UseReducer />
+          </Route>
+          <Route path="/ContextAPI">
+            <ContextAPI />
+          </Route>
           
         </Switch>
 
@@ -63,4 +89,8 @@ function App() {
   );
 }
 export default App;
+
+
+
+
 
