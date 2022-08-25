@@ -3,10 +3,8 @@ import React, { useState } from 'react';
 // ternary operator
 
 const ShortCircuit = () => {
-  const [text,setText]=useState('');
+  const [text]=useState('');
   const [isError, setIsError]=useState(false);
-  const firstValue = text || 'hello world';
-  const secondValue = text && 'hello world';
 
   return (
     <>
