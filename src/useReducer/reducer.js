@@ -7,7 +7,7 @@ export const reducer = (state, action)=>{
       return{
         ...state,
         isModalOpen:true,
-        modalContent:'please enter  value'
+        modalContent:'please enter value'
       };
     }
     if(action.type==='CLOSE_MODAL'){
