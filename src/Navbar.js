@@ -94,9 +94,6 @@ const Navbar = () => {
             <Link to="/TabsProject">TabsProject</Link>
           </li>
           <li>
-            <Link to="/SliderProject">SliderProject</Link>
-          </li>
-          <li>
             <Link to="/LoremIpsumProject">LoremIpsumProject</Link>
           </li>
 
