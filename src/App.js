@@ -23,6 +23,12 @@ import UseReducer from './useReducer/index';
 
 import ContextAPI from './useContext/context-api';
 
+import CustomHook from './customHooks/1-fetch-example';
+
+import PropTypes from './propTypes';
+
+
+
 import Navbar from './Navbar';
 
 function App() {
@@ -80,7 +86,12 @@ function App() {
           <Route path="/ContextAPI">
             <ContextAPI />
           </Route>
-          
+          <Route path="/CustomHook">
+            <CustomHook />
+          </Route>
+          <Route path="/PropTypes">
+            <PropTypes />
+          </Route>
         </Switch>
 
 

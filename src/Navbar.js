@@ -63,8 +63,12 @@ const Navbar = () => {
           <li>
             <Link to="/ContextAPI">ContextAPI</Link>
           </li>
-
-
+          <li>
+            <Link to="/CustomHook">CustomHook</Link>
+          </li>
+          <li>
+            <Link to="/PropTypes">PropTypes</Link>
+          </li>
         </ul>
       </div>
 
