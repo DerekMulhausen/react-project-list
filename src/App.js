@@ -27,6 +27,16 @@ import CustomHook from './customHooks/1-fetch-example';
 
 import PropTypes from './propTypes';
 
+import BirthdayReminder from './projects/BirthdayReminder/App';
+import ToursProject from './projects/Tours/App';
+import ReviewsProject from './projects/Reviews/App';
+import AccordianProject from './projects/Accordian/App';
+import MenuProject from './projects/Menu/App';
+import TabsProject from './projects/Tabs/App';
+import SliderProject from './projects/Slider/App';
+import LoremIpsumProject from './projects/LoremIpsum/App';
+
+
 
 
 import Navbar from './Navbar';
@@ -92,9 +102,31 @@ function App() {
           <Route path="/PropTypes">
             <PropTypes />
           </Route>
+          <Route path="/BirthdayReminder">
+            <BirthdayReminder />
+          </Route>
+          <Route path="/ToursProject">
+            <ToursProject />
+          </Route>
+          <Route path="/ReviewsProject">
+            <ReviewsProject />
+          </Route>
+          <Route path="/AccordianProject">
+            <AccordianProject />
+          </Route>
+          <Route path="/MenuProject">
+            <MenuProject />
+          </Route>
+          <Route path="/TabsProject">
+            <TabsProject />
+          </Route>
+          <Route path="/SliderProject">
+            <SliderProject />
+          </Route>
+          <Route path="/LoremIpsumProject">
+            <LoremIpsumProject />
+          </Route>
         </Switch>
-
-
       </Router>
     </div>
   );

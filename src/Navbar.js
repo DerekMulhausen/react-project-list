@@ -72,6 +72,38 @@ const Navbar = () => {
         </ul>
       </div>
 
+      <div className='linkSet'>
+        <h3>Projects</h3>
+        <ul>
+          <li>
+            <Link to="/BirthdayReminder">BirthdayReminder</Link>
+          </li>
+          <li>
+            <Link to="/ToursProject">ToursProject</Link>
+          </li>
+          <li>
+            <Link to="/ReviewsProject">ReviewsProject</Link>
+          </li>
+          <li>
+            <Link to="/AccordianProject">AccordianProject</Link>
+          </li>
+          <li>
+            <Link to="/MenuProject">MenuProject</Link>
+          </li>
+          <li>
+            <Link to="/TabsProject">TabsProject</Link>
+          </li>
+          <li>
+            <Link to="/SliderProject">SliderProject</Link>
+          </li>
+          <li>
+            <Link to="/LoremIpsumProject">LoremIpsumProject</Link>
+          </li>
+
+          
+        </ul>
+      </div>
+
 
 
 
