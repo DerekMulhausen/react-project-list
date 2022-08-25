@@ -4,7 +4,7 @@ const Navbar = () => {
   return(
      <div className='navLinks'>
       <div className='linkSet'>
-        <h3>UseState</h3>
+        <h4>UseState</h4>
         <ul>
           <li>
             <Link to="/UseStateArray">UseStateArray</Link>
@@ -22,7 +22,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className='linkSet'>
-        <h3>UseEffect</h3>
+        <h4>UseEffect</h4>
         <ul>
           <li>
             <Link to="/UseEffectBasics">UseEffectBasics</Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className='linkSet'>
-        <h3>Conditional Rendering</h3>
+        <h4>Conditional Rendering</h4>
         <ul>
           <li>
             <Link to="/MultipleReturns">MultipleReturns</Link>
@@ -52,7 +52,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className='linkSet'>
-        <h3>Single Items</h3>
+        <h4>Single Items</h4>
         <ul>
           <li>
             <Link to="/UseRefBasics">UseRefBasics</Link>
@@ -73,7 +73,7 @@ const Navbar = () => {
       </div>
 
       <div className='linkSet'>
-        <h3>Projects</h3>
+        <h4>Projects</h4>
         <ul>
           <li>
             <Link to="/BirthdayReminder">BirthdayReminder</Link>

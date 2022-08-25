@@ -44,6 +44,7 @@ import Navbar from './Navbar';
 function App() {
   return (
     <div className='container'>
+      <a href="https://github.com/DerekMulhausen/react-project-list" target="_blank">Github repo of this site</a>
       <Router>
         <Navbar />
         <Switch>
